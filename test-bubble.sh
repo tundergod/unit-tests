@@ -13,7 +13,7 @@ echo 'set logging file '$2>>_tmp.gdb
 echo ' '>>$2
 exec < $1
 
-while  (read var) 
+while  (read var)
 do
 	read var
 	list_length=$var
